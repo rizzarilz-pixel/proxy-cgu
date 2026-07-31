@@ -1,0 +1,6 @@
+fastapi
+httpx
+requests
+pycryptodome
+x7m  # pastikan modul ini tersedia (bisa jadi file .py sendiri)
+uvicorn  # opsional, tapi tidak digunakan saat runtime Vercel
