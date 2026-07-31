@@ -1,6 +1,5 @@
-fastapi
+fastapi==0.95.0
+pydantic==1.10.13
 httpx
 requests
 pycryptodome
-x7m  # pastikan modul ini tersedia (bisa jadi file .py sendiri)
-uvicorn  # opsional, tapi tidak digunakan saat runtime Vercel
