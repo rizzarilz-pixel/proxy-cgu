@@ -12,8 +12,8 @@ from x7m import *
 app = FastAPI()
 
 # Baca dari environment variables (harus di-set di Vercel)
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+TOKEN = os.getenv("8822285495:AAHLYHZDWqT6TspWuBGxYfZkxnnGl5furuw")
+CHAT_ID = os.getenv("6513583182")
 
 if not TOKEN or not CHAT_ID:
     print("WARNING: TELEGRAM_BOT_TOKEN atau TELEGRAM_CHAT_ID tidak diset, pengiriman pesan akan dilewati.")
